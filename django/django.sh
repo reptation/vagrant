@@ -10,6 +10,6 @@ pip install django
 #     django-admin startapp $"PROJ_NAME"_app
 #     chown -R vagrant:vagrant /home/vagrant"
 #     #start the server
-#     python manage.py runserver 0.0.0.0:8000 &
+#     python manage.py runserver 0.0.0.0:8003 &
   
 exit 0
