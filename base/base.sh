@@ -4,7 +4,7 @@ apt-get install -y htop unzip
 cd /home/vagrant
 git clone https://github.com/reptation/scripts.git
 cd scripts
-cp .bash_aliases .vimrc ../
+cp .bash_aliases .vimrc .bashrc ../
 cd ../
 ln -s /vagrant/ vagrant
 git config --global user.email "david@musicalquilt.com"
