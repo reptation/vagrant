@@ -1,6 +1,8 @@
 #!/bin/bash
 apt-get update 
 apt-get install -y htop unzip
+# install nginx for demo site
+apt install nginx
 cd /home/vagrant
 git clone https://github.com/reptation/scripts.git
 cd scripts
