@@ -6,7 +6,7 @@ git clone https://github.com/reptation/scripts.git
 git clone  https://github.com/reptation/vagrant-files.git
 
 #Ansible finds files here
-sudo cp cp -r scripts /home/vagrant/
+sudo cp -r scripts /home/vagrant/
 sudo chown -R vagrant:vagrant /home/vagrant
 
 #software updates utility packages 
